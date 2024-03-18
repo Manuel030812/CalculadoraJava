@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class CalculadoraApp {
     public static void main(String[] args) {
+
         Scanner consola = new Scanner(System.in);
         while(true){
             System.out.println("**** Aplicacion Calculadora ****");
@@ -20,7 +21,7 @@ public class CalculadoraApp {
                     System.out.println("opcion erronea" + operacion);
                 }
                 //imprimimos un salto de linea
-                System.out.println(5);
+                System.out.println();
             }//fin del try
             catch (Exception e){
                 System.out.println("ocurrio un error:"+e.getMessage());
